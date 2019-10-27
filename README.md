@@ -64,6 +64,9 @@ install_requires = [
   
 If you execute `make freeze`, it will regenerate the `requirements.txt` file with the new dependencies according to what the new version of `pytest` needs.  
   
+### Deployment to Heroku
+
+The Flask API available in `src/app.py` can easily be deployed to Heroku. Please refer to the `Procfile` in the root folder and the official [Heroku documentation](https://devcenter.heroku.com/categories/reference) for more information on how to do this.   
 
 ## Contributing
 
