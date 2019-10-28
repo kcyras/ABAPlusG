@@ -19,11 +19,7 @@ Users can specify the components of an ABA+G framework (i.e. Assumptions, Rules,
 -   **myPrefLT(b**, **a).** specifies that assumption **a** is strictly preferred over assumption **b**;
 -   **myPrefLE(b**, **a).** specifies that assumption **a** is strictly or equally preferred over assumption **b**;
 
-## Using the deployed version
-
-A live version of this app is available as an API on `http://aba-plus-g.herokuapp.com/`. Currently the following endpoints are accessible:
- 
- -   **/genereate_explanations** is an endpoint which accepts a post request containing a valid DSS JSON object and returns the relevant extensions and accompanying explanations for which actions need to be taken in the treatment of patients. 
+To get extensions of an ABA+ framework, `python src/cli.py --file "FILENAME"`
 
 ## Useful reading
 
