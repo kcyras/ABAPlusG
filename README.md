@@ -4,7 +4,7 @@
   
 **Note:** Basic knowledge of argumentation theory is assumed throughout this documentation. If you are unfamiliar with this it's recommended that you read the material in the useful reading section before continuing.
 
-  **Assumption Based Argumentation with goals and preferences(ABA+G)** is a newly proposed formalism for structured argumentation.
+  **Assumption Based Argumentation with goals and preferences (ABA+G)** is a newly proposed formalism for structured argumentation.
   
 This project provides an interface which implements reasoning using the ABA+G formalism. There are algorithms for calculating extensions of these frameworks under various semantics, a problem which is of interest in fields such as AI, Law and Medicine. 
 
@@ -21,7 +21,7 @@ Users can specify the components of an ABA+G framework (i.e. Assumptions, Rules,
 
 ## Using the deployed version
 
-A live version of this app is available as an API on `http://aba-plus-g.herokuapp.com/`. Currently the following endpoints are accessible:
+A live version of the ABA+ app supporting ABA+G for reasoning with clinical guidelines is available as an API on `http://aba-plus-g.herokuapp.com/`. Currently the following endpoints are accessible:
  
  -   **/genereate_explanations** is an endpoint which accepts a post request containing a valid DSS JSON object and returns the relevant extensions and accompanying explanations for which actions need to be taken in the treatment of patients. 
 
@@ -29,8 +29,8 @@ A live version of this app is available as an API on `http://aba-plus-g.herokuap
 
 The following papers provide a background on argumentation theory and this project. 
 
- - Francesca Toni: [A tutorial on assumption-based argumentation](https://www.tandfonline.com/doi/abs/10.1080/19462166.2013.869878). A great introductory tutorial to Assumption Based Argumentation (ABA).
- - Kristijonas Cyras, Claudia Schulz, and Francesca Toni: [Resolving Conflicts in Clinical Guidelines using Argumentation](https://arxiv.org/pdf/1902.07526.pdf). The paper which introduces the ABA+G formalism. 
+ - Francesca Toni, 2014: [A tutorial on assumption-based argumentation](https://www.tandfonline.com/doi/abs/10.1080/19462166.2013.869878). A great introductory tutorial to Assumption Based Argumentation (ABA).
+ - Kristijonas Cyras, Tiago Oliveira, 2019: [Resolving Conflicts in Clinical Guidelines using Argumentation](http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p1731.pdf). The paper which introduces the ABA+G formalism. 
 
 ## Developing  
   
