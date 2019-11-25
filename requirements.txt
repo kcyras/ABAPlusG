@@ -19,7 +19,7 @@ monotonic==1.5            # via eventlet
 numpy==1.14.3             # via pandas
 pandas==0.23.0
 python-dateutil==2.7.3    # via pandas
-python-engineio==3.5.1    # via python-socketio
+python-engineio==3.8.2.post1    # via python-socketio
 python-socketio==3.1.2    # via flask-socketio
 pytz==2018.4              # via pandas
 six==1.11.0               # via eventlet, flask-cors, python-dateutil, python-engineio, python-socketio
